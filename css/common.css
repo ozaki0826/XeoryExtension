@@ -1,5 +1,5 @@
 #header{
-    background-color:#13e29c;
+    background-color:#69DEA1;
     margin: 0px;
     padding: 0px;
     height: 92px;
@@ -9,6 +9,7 @@
     color: #fff;
     font-size: 24px;
     margin: 0 10px;
+    padding:27px;
 }
 .gnav{
     display: flex;
@@ -18,8 +19,16 @@
 }
 .gnav-item{
     line-height: 92px;
-    padding: 0 10px;
-    float: right;
+    display: flex;
+    padding: 0 20px;
+    list-style: none;
+    : white;
+}
+.gnav-item :hover{
+    background-color: rgba(255,255,255)
+}
+li{
+    padding: 10px;
 }
 }
 .gnav-title{
