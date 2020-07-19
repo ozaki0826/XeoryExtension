@@ -4,13 +4,13 @@
         <meta charset="UTF-8">
         <title>XeoryExtension</title>
         <meta name="Author" content=""/>
-        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <link rel="stylesheet" href="css/common.css">
     </head>
     <body>
         <header id="header">
             <h1 class="title">XeoryExtension</h1>
             <nav class="gnav">
-                <ul>
+                <ul class="gnav-item">
                     <li><a href="">記事のページサンプル</a></li>
                     <li><a href="">Extensionをダウンロード</a></li>
                 </ul>
@@ -22,8 +22,9 @@
                     <h2 class="main-areas-title">XeoryExtension</h2>
                     <p class="main-areas-description">Xeory Extensionはワンコラムのサイト型テーマです。ユーザーに対して重要なコンテンツを効率的に届けられるようにデザインされています。５種類のカラーバリエーションを用意しています。</p>
                 </header>
-                <section class="entries">
-                    <h3 class="entries-title">人気のある記事</h3>
+                <div class="entry-container"></div>
+                <section class="entry">
+                    <h3 class="entry-title">人気のある記事</h3>
                     <section class="entry">
                         <h4 class="entry-item">テスト投稿</h4>
                         <p class="entry-category">カテゴリー#1</p>
@@ -107,9 +108,9 @@
                         <p class="btn orange"><a href="">詳しく見る</a></p>
                     </section>
                 </section>
-                <section class="service">
+                <section class="content">
                     <h3 class="content-title">サービス紹介<span>service</span></h3>
-                    <section class="Customizable">
+                    <section class="">
                         <h4 class=content-title>Xeoryカスタマイズ<span>Xeory Customize</span></h4>
                         <p class="btn green"><a href="">カスタマイズ事例を見る</a></p>
                     </section>
@@ -118,42 +119,47 @@
                         <p class="btn green"><a href="">コンサルティング事例を見る</a></p>
                     </section>
                 </section>
-                <section class="company">
-                    <h2 class="content-title">会社紹介<span>company</span></h2>
-                    <dl class=company-item>
-                        <dd>会社名</dd> <dt>株式会社ルーシー</dt>
-                        <dd>電話番号</dd> <dt>03-1111-2222</dt>
-                        <dd>住所</dd> <dt>東京都港区西新橋２-７-４ CJビル11階</dt> </dl>
+                <section class="cotent">
+                    <h2 class="table-title">会社紹介<span>company</span></h2>
+                    <dl class=table-item>
+                        <dt class="table-title">会社名</dt>
+                        <dd class="table-description">株式会社ルーシー</dd>
+                        <dt class="table-title">電話番号</dt>
+                        <dd class="table-descrption">03-1111-2222</dd>
+                        <dt class="table-title">住所</dt>
+                        <dd class="table-discription">東京都港区西新橋２-７-４ CJビル11階</dd> </dl>
                 </section>
-                <section class="nquiry">
-                    <h2 class="nquiry-title">お問い合わせ<span>inquiry</span></h2>
-                    <section class="nquiry-item">
+                <section class="inquiry">
+                    <h2 class="inquiry-title">お問い合わせ<span>inquiry</span></h2>
+                    <section class="inquiry-item">
                         <form action="#" method="post">
                             <dl class="form"> <dt class="form-name">お名前(必須)</dt>
-                                <dd class="form-Ex"><input type="text" name="name"></dd> <dt class="form-name">メールアドレス(必須)</dt>
-                                <dd class="form-Ex"><input type="text" name="name"></dd> <dt class="form-name">題名必須</dt>
-                                <dd class="form-Ex"><input type="text" name="name"></dd> <dt class="form-name">メッセージ入力</dt>
-                                <dd class="form-Ex"><input type="text" name="name"></dd>
+                                <dd class="form-label"><input type="text" name="name"></dd> <dt class="form-value">メールアドレス(必須)</dt>
+                                <dd class="form-label"><input type="text" name="name"></dd> <dt class="form-value">題名必須</dt>
+                                <dd class="form-label"><input type="text" name="name"></dd> <dt class="form-value">メッセージ入力</dt>
+                                <dd class="form-label"><input type="text" name="name"></dd>
                             </dl>
-                            <p class="submit"><input type="submit" value="送信する"></p>
+                            <p class="black btn"><input type="submit" value="送信する"></p>
                         </form>
                     </section>
                 </section>
             </article>
         </main>
-        <footer class="XeoryExtension">
-            <p class="XeoryExtension-title">XeoryExtension</p>
-            <dl class="XeoryExtension-item"> <dt>ブログコンテンツ</dt>
-                <dd><a href="">記事ページサンプル</a></dd>
-                <dd><a href="">Extensionをダウンロード</a></dd>
+        <footer class="footer">
+            <p class="footer-title">XeoryExtension</p>
+            <dl class="footer-content">
+                <dt class="footer-label">ブログコンテンツ</dt>
+                <dd class=footr-value><a href="">記事ページサンプル</a></dd>
+                <dd class="footer-value"><a href="">Extensionをダウンロード</a></dd>
             </dl>
-            <dl> <dt>ソーシャルメディア</dt>
-                <dd><a href="">twiter</a></dd>
-                <dd><a href="">Facebook</a></dd>
-                <dd><a href="">google+</a></dd>
-                <dd><a href="">feedly</a></dd>
+            <dl class="footer-content">
+                <dt class="footer-label">ソーシャルメディア</dt>
+                <dd class="footer-value"><a href="">twiter</a></dd>
+                <dd class="footer-value"><a href="">Facebook</a></dd>
+                <dd class="footer-value"><a href="">google+</a></dd>
+                <dd class="footer-value"><a href="">feedly</a></dd>
             </dl>
-            <p>&#169;Copyright 2020 XeoryExtension. All rights reserved.</p>
+            <p class="copyright">&#169;Copyright 2020 XeoryExtension. All rights reserved.</p>
         </footer>
     </body>
 </html>
