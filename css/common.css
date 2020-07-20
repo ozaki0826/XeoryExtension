@@ -12,17 +12,15 @@
     padding:27px;
 }
 .gnav{
-    display: flex;
     position: absolute;
     top: 0;
     right: 0;
 }
 .gnav-item{
-    line-height: 92px;
+    line-height: 62px;
     display: flex;
     padding: 0 20px;
     list-style: none;
-    : white;
 }
 .gnav-item :hover{
     background-color: rgba(255,255,255)
