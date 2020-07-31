@@ -1,5 +1,9 @@
+*{
+    margin:0px;
+    padding:0px;
+}
 #header{
-    background-color:#69DEA1;
+    background-color:#3CA78C;
     margin: 0px;
     padding: 0px;
     height: 92px;
@@ -23,7 +27,8 @@
     list-style: none;
 }
 .gnav-item :hover{
-    background-color: rgba(255,255,255)
+    /*background-color: rgba(255,255,255)*/
+    opacity: 0.5 ;
 }
 li{
     padding: 10px;
@@ -31,4 +36,38 @@ li{
 }
 .gnav-title{
     display:none;
+}
+.main-areas{
+    background-color: #43c6a5;
+    height:600px;
+}
+.main-areas-title{
+    color:white;
+    font-size :30px;
+    text-align: center;
+}
+.main-areas-description{
+    color:white;
+    width:600px;
+    margin:auto;
+}
+.entries-title{
+    font-size: 24px;
+    padding:24px 0;
+    margin:30px;
+    text-align: center;
+    border:1px solid;
+    border-left: transparent;
+    border-right: transparent;
+    border-color:#DFDFDF;
+}
+.entry-imge{
+    width:800px;
+    height:533px;
+    max-width: 100%;
+    
+}
+.entry{
+    display: inline-block;
+    text-align: center;
 }
