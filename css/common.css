@@ -235,7 +235,6 @@ li{
 
 .feature:nth-child(odd) {
     padding-left: 900px;
-    border: 2px solid #111;
 }
 .feature:nth-child(even) {
     padding-right: 900px;
@@ -265,7 +264,6 @@ li{
 .featuere-image{
     height: auto;
     width: auto;
-    border: 1px solid blue;
 }
 .feature-item {
     margin-left: 120px;
